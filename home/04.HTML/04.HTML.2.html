@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Python</title>
+    </head>
+    <body>
+        <header>
+            <img id="up" src="http://142.93.172.35:8080/static/media/Icon-Python.7bb116a5.png" alt="Логотип Python" title="Логотип Python" align="right">
+            <h1 align="center"; id="h1">HOW-TO: Программа на Python, Часть 2</h1>
+            <ul>
+                <li><i>Программа на Python — часть 1</i></li>
+                <li><i>Программа на Python — часть 2</i></li>
+                <li><i>Программа на Python — часть 3</i></li>
+            </ul>
+            <h2 id="a1">Содержание</h2>
+            <h3>HOW-TO: Программа на Python, Часть 2</h3>
+            <ul>
+                <li><ins>Списки</ins></li>
+                <li><ins>Комментарии</ins></li>
+            </ul>
+            <hr>
+            <p>
+Впрошлом уроке мы рассмотрели простую программу, которая использовала raw_input 
+для получения ответа пользователя, простые типы переменных и простой цикл «<b>for</b>». В 
+этом уроке мы рассмотрим ещё больше типов переменных и напишем ещё больше 
+программ.
+            </p>
+            <h2 id="a2">Списки</h2>
+            <p>
+Давайте рассмотрим другой тип переменных, который называется <i>списки</i>. В других 
+языках программирования они называются <i>массивами</i>. Если мы обратимся к аналогии с 
+коробками для обуви, то массив (список) представляет собой несколько склеенных друг с 
+другом коробок с одинаковыми вещами. Например, в одной коробке лежат вилки, в 
+другой — ножи, в третьей — ложки. Посмотрим на простой список— список месяцев. Мы 
+запрограммируем его так:
+            </p>
+            <code><pre>
+months = 
+['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
+            </pre></code>
+            <p>
+Чтобы создать список, мы заключили все значения в квадратные скобки ( '<b>[</b>' и '<b>]</b>' ). Мы 
+назвали наш список '<i>months</i>'. Чтобы использовать список, мы дадим команду print 
+<b>months[0]</b> или <b>months[1]</b> (которые выведут на экран '<i>Jan</i>' или '<i>Feb</i>'). Помните: счет 
+начинается с нуля. Чтобы найти длину списка, можно использовать такую функцию:
+            </p>
+            <code><pre>
+print len(months)
+            </pre></code>
+            <p>которая вернёт 12.</p>
+            <p>Ещё один пример списков — категории в поваренной книге. Например…</p>
+            <code>categories = ['Main dish','Meat','Fish','Soup','Cookies']</code>
+            <p>
+Таким образом, в <b>categories[0]</b> хранится '<i>Main dish</i>', а в <b>categories[4]</b> — '<i>Cookies</i>'. Всё 
+очень просто. Я уверен, вы сможете придумать много других примеров использования 
+списков.
+            </p>
+            <hr>
+            <h2 id="a3">Комментарии</h2>
+            <p>
+Далее, мы должны обсудить комментарии. Комментарии важны по нескольким причинам. 
+Они не только говорят вам или другим людям, что вы пытаетесь делать, но и напомнят 
+вам через полгода, что же вы хотели сделать. Когда вы будете писать много программ, 
+комментарии станут важными. Также при их помощи вы заставите Python игнорировать 
+какие-либо части кода. Чтобы закомментировать строку, поставьте перед ней знак '#'. 
+Например:
+            </p>
+            <code>#</code>
+            <p>
+Это комментарий
+            </p>
+            <p>
+Комментарии можно вставлять в любое место в строке, но помните, что Python 
+проигнорирует всё, что идёт после '#'.                
+            </p>
+            <p><a href="task2.2.1.html">HOW-TO: Программа на Python, Часть 1</a></p>
+            <ul>
+                <li><a href="task2.2.1.html#h1">HOW-TO: Программа на Python, Часть 1</a></li>
+                <li><a href="task2.2.1.html#a1">Содержание</a></li>
+                <li><a href="task2.2.1.html#a2">Наша первая программа</a></li>
+                <li><a href="task2.2.1.html#a3">Пример цикла For</a></li>
+            </ul>
+            <p><a href="task2.2.3.html">HOW-TO: Программа на Python, Часть 3</a></p>
+            <ul>
+                <li><a href="task2.2.3.html#h1">HOW-TO: Программа на Python, Часть 3</a></li>
+                <li><a href="task2.2.3.html#a1">Содержание</a></li>
+                <li><a href="task2.2.3.html#a2">Модули</a></li>
+                <li><a href="task2.2.3.html#a3">Функции</a></li>
+            </ul>
+            <p>
+                <a href="file:///C:/Users/User/PROJECTS/GIT/EVGENIY_GOLYNSKIY/EVGENIY_GOLYNSKIY/home/03.HTML/03.HTML.1.html"><img src="https://35d24bdb-a-62cb3a1a-s-sites.googlegroups.com/site/feexpr/Downhome/Topic1/zadania-1/prev.png?attachauth=ANoY7coTlRzqvOyS0VpBhwuL5ZvAMPSpPbCXxOFaMOUY4qEMl9ndyyNUrv_QiIWDXd6jJ__FmaVJSZkyJCHoRm9g18BfsdHWvTgqZd_pw-QS8f3V4Djr97RZpGjt6Sqo62WTgYX1595h-UjaT8SUBTTGwkYvfHGbwQwB2QvL84iB0umGM-KYdWVh3D08sQgSFW0Kp-SoqfUilP7BdFp2fC3841-t9fOaxeCRQ3qPDhItDpZFRsbAs24%3D&attredirects=0"
+                alt="переход на предыдущую страницу" title="переход на предыдущую страницу" align="left"></a>
+                <a href="#up"><img src="https://35d24bdb-a-62cb3a1a-s-sites.googlegroups.com/site/feexpr/Downhome/Topic1/zadania-1/home.png?attachauth=ANoY7crDut8pNCZYt2jGRGdHXrv9uMc6Xe3CibwUashb_m6W3BuEOy-IVWF9Lm7m0JQR1JBHTFeYMMHmb6MdGiSdr2ODqi6xe6B-f-uoQta8U2G1v5kmk9tgmca9c0_tYK-wT4XIXUaPr3eP9zXZc-Kd4SPToywjEUImNCDFklcz8jyuI5MwnfisEwWxsjMb5JeZt5DerGNwYu760xGgjNA9t_3gZS8ZhtXjzk9BydSyVVrlWVU6pVI%3D&attredirects=0"
+                alt="переход к верхнему" title="переход к верхнему" class="center-img"></a>
+                <a href="file:///C:/Users/User/PROJECTS/GIT/EVGENIY_GOLYNSKIY/EVGENIY_GOLYNSKIY/home/03.HTML/03.HTML.3.html"><img src="https://35d24bdb-a-62cb3a1a-s-sites.googlegroups.com/site/feexpr/Downhome/Topic1/zadania-1/next.png?attachauth=ANoY7cpl0ZKapQ3dZMClcO-8yXU3XxEICzusKq3Yk05EZotO7ES6RSgFIc-HXYIY7DiYiZFzSpBDLPYDBHc9mSyBPTsWrDWpskASBIupSqXtkk_oUqedlNK0pZneOQbr2YWYglvFL7V4dnpFYOMeK9TRec-cg1pHUUxl8Zwv6ZRyeReK9XSkuoqVsECTHAoroPID_Cgqea_rjU_AdX-TrFVZ28H3NLGAsQgcrZh5HL8vYSNIg10-gHM%3D&attredirects=0"
+                alt="переход на следующую страницу" title="переход на следующую страницу" align="right"></a>
+            </p>
+        </header>
+    </body>
+</html>

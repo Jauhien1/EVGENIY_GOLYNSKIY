@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Python</title>
+        <style>
+            .center-img {
+  display: block;
+  margin: 0 auto;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <img id="up" src="http://142.93.172.35:8080/static/media/Icon-Python.7bb116a5.png" alt="Логотип Python" title="Логотип Python" align="right">
+            <h1 align="center"; id="h1">HOW-TO: Программа на Python, Часть 1</h1>
+            
+            <ul>
+                <li><i>Программа на Python — часть 1</i></li>
+                <li><i>Программа на Python — часть 2</i></li>
+                <li><i>Программа на Python — часть 3</i></li>
+            </ul>
+            <h2 id="a1">Содержание</h2>
+            <h3>HOW-TO: Программа на Python, Часть 1</h3>
+            <ul>
+                <li><ins>Наша первая программа</ins></li>
+                <li><ins>Пример цикла For</ins></li>
+            </ul>
+            <p>
+                Из множества существующих языков программирования Python — один из самых лёгких 
+                в изучении. Он создан в конце 80-х годов XX века, но с тех пор он сильно изменился. 
+                Хотя Python входит в состав большинства дистрибутивов Linux, на него часто не 
+                обращают внимания при выборе языка для изучения. В этой статье мы рассмотрим 
+                создание консольных приложений, а в следующей — программирование графических 
+                интерфейсов (<ins>GUI</ins>). Давайте создадим простую программу прямо сейчас.
+            </p>
+            <h2 id="a2">Наша первая программа</h2>
+            <p>
+                Наберём код в текстовом редакторе (например, в <b>gedit</b>). Потом мы разберёмся, что делает 
+                каждая строка и пойдём дальше.
+            </p>
+            <p>Введите эти 4 строки:</p>
+            <code><pre>
+#!/usr/bin/env python
+print 'Hello. I am a python program.'
+name = raw_input("What is your name?")
+print "Hello there, " + name + "!"
+            </pre></code>
+            <p>
+                Это всё. Сохраните файл как <b>hello.py</b> в любом месте. Я предлагаю сохранить его в папке 
+                <b>python_examples</b> в домашнем каталоге. Этот пример показывает, как просто написать 
+                программу на Python. Для запуска программы нужно сделать её файл исполняемым. Для 
+                этого введите в терминале
+            </p>
+            <p><samp><ins><i><b>chmod +x hello.py</b></i></ins></samp></p>
+            <p>в папке, в которой вы сохранили программу. Теперь запустите её.</p>
+            <code><pre>
+greg@earth:~/python_examples$ ./hello.py
+Hello. I am a python program.
+What is your name? Ferd Burphel
+Hello there, Ferd Burphel!
+greg@earth:~/python_examples$
+            </pre></code>
+            <p>Вот и всё.</p>
+            <h2 id="a3"><b>Пример цикла For</b></h2>
+            <p>
+                Теперь давайте рассмотрим пример программирования цикла. Запустите текстовый 
+                редактор и наберите следующую программу:
+            </p>
+            <code><pre>
+#!/usr/bin/env python
+for cntr in range(0,10):
+print cntr
+            </pre></code>
+            <p>
+                <i>Не забудьте поставить символ табуляции перед строкой «print cntr».</i> Это важно. В 
+                Python для указания на блоки кода используются не круглые «(» и фигурные «{» скобки 
+                как в других языках программирования, а отступы
+            </p>
+            <p><a href="task2.2.2.html">HOW-TO: Программа на Python, Часть 2</a></p>
+            <ul>
+                <li><a href="task2.2.2.html#h1">HOW-TO: Программа на Python, Часть 2</a></li>
+                <li><a href="task2.2.2.html#a1">Содержание</a></li>
+                <li><a href="task2.2.2.html#a2">Списки</a></li>
+                <li><a href="task2.2.2.html#a3">Комментарии</a></li>
+            </ul>
+            <p><a href="task2.2.3.html">HOW-TO: Программа на Python, Часть 3</a></p>
+            <ul>
+                <li><a href="task2.2.3.html#h1">HOW-TO: Программа на Python, Часть 3</a></li>
+                <li><a href="task2.2.3.html#a1">Содержание</a></li>
+                <li><a href="task2.2.3.html#a2">Модули</a></li>
+                <li><a href="task2.2.3.html#a3">Функции</a></li>
+            </ul>
+            <p>
+                <a href=""><img src="https://35d24bdb-a-62cb3a1a-s-sites.googlegroups.com/site/feexpr/Downhome/Topic1/zadania-1/prev.png?attachauth=ANoY7coTlRzqvOyS0VpBhwuL5ZvAMPSpPbCXxOFaMOUY4qEMl9ndyyNUrv_QiIWDXd6jJ__FmaVJSZkyJCHoRm9g18BfsdHWvTgqZd_pw-QS8f3V4Djr97RZpGjt6Sqo62WTgYX1595h-UjaT8SUBTTGwkYvfHGbwQwB2QvL84iB0umGM-KYdWVh3D08sQgSFW0Kp-SoqfUilP7BdFp2fC3841-t9fOaxeCRQ3qPDhItDpZFRsbAs24%3D&attredirects=0"
+                alt="переход на предыдущую страницу" title="переход на предыдущую страницу" align="left"></a>
+                <a href="#up"><img src="https://35d24bdb-a-62cb3a1a-s-sites.googlegroups.com/site/feexpr/Downhome/Topic1/zadania-1/home.png?attachauth=ANoY7crDut8pNCZYt2jGRGdHXrv9uMc6Xe3CibwUashb_m6W3BuEOy-IVWF9Lm7m0JQR1JBHTFeYMMHmb6MdGiSdr2ODqi6xe6B-f-uoQta8U2G1v5kmk9tgmca9c0_tYK-wT4XIXUaPr3eP9zXZc-Kd4SPToywjEUImNCDFklcz8jyuI5MwnfisEwWxsjMb5JeZt5DerGNwYu760xGgjNA9t_3gZS8ZhtXjzk9BydSyVVrlWVU6pVI%3D&attredirects=0"
+                alt="переход к верхнему" title="переход к верхнему" class="center-img"></a>
+                <a href="file:///C:/Users/User/PROJECTS/GIT/EVGENIY_GOLYNSKIY/EVGENIY_GOLYNSKIY/home/03.HTML/03.HTML.2.html"><img src="https://35d24bdb-a-62cb3a1a-s-sites.googlegroups.com/site/feexpr/Downhome/Topic1/zadania-1/next.png?attachauth=ANoY7cpl0ZKapQ3dZMClcO-8yXU3XxEICzusKq3Yk05EZotO7ES6RSgFIc-HXYIY7DiYiZFzSpBDLPYDBHc9mSyBPTsWrDWpskASBIupSqXtkk_oUqedlNK0pZneOQbr2YWYglvFL7V4dnpFYOMeK9TRec-cg1pHUUxl8Zwv6ZRyeReK9XSkuoqVsECTHAoroPID_Cgqea_rjU_AdX-TrFVZ28H3NLGAsQgcrZh5HL8vYSNIg10-gHM%3D&attredirects=0"
+                alt="переход на следующую страницу" title="переход на следующую страницу" align="right"></a>
+            </p>
+        </header>
+    </body>
+</html>
