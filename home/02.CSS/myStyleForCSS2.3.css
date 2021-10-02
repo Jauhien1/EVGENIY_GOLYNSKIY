@@ -1,0 +1,17 @@
+.menu{
+    width: 15em;
+    float: left;
+    background-color: rgb(179, 173, 173);
+}
+.content{
+background-color: rgb(87, 87, 87) ;
+margin-bottom: 2em;
+
+}
+.footer{
+background-color: blueviolet;
+clear: left;;    
+}
+img{
+    object-position: right;
+}
